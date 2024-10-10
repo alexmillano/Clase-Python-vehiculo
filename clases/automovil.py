@@ -36,3 +36,7 @@ class Automovil(Vehiculo):
 
     def set_ruedas(self, ruedas):
         self.ruedas = ruedas
+
+    def Datos(self):
+        print(f"El modelo del auto es: {self.get_modelo()}")
+        print(f"Ruedas: {self.get_ruedas()}")

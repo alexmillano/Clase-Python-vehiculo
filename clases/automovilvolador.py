@@ -23,3 +23,7 @@ class AutomovilVolador(Vehiculo):
 
     def conducir(self):
         print("El automóvil está conduciendo")
+
+    def Datos(self):
+        print("El modelo del auto es: ", self.get_marca)
+        print("Ruedas: ", self.get_ruedas)
